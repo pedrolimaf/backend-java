@@ -3,9 +3,9 @@ package microservice.mircoservice.respository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import microservice.mircoservice.model.Cliente;
+import microservice.mircoservice.model.Produtos;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
+public interface ProdutosRepository extends JpaRepository<Produtos, Long>{
 
 }
